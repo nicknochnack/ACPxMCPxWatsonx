@@ -1,0 +1,12 @@
+[project]
+name = "6-05-2025-acpxwatsonx"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "acp-sdk>=0.8.4",
+    "colorama>=0.4.6",
+    "smolagents[litellm,mcp]>=1.14.0",
+    "yfinance>=0.2.58",
+]
